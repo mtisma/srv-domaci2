@@ -1,0 +1,16 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F107VC -BIN -LHF -DL -SSA -O11111114 -fo72 -N"C:\Users\Andreja\Desktop\mikroC\domaci2.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\" -SP"C:\Users\Andreja\Desktop\mikroC\" -SP"C:\Users\Andreja\Desktop\srv-domaci-2-master\mikroC\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" "domaci2.c" "USBdsc.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_105_107.emcl" "__Lib_GPIO_32F10x_Defs.emcl" "__Lib_GPIO_32F10x.emcl" "__Lib_ADC_12_32F10x_16ch.emcl" "__Lib_USB_32F10x_CL.emcl" "__Lib_TFT.emcl" "__Lib_TFT_Defs.emcl" "__Lib_TouchPanel_TFT.emcl"	 
+diagnostics: 0	122	Compilation Started	domaci2.c
+hint: 111	1163	Variable 'i' has been declared, but not used	domaci2.c
+hint: 112	1163	Variable 'x' has been declared, but not used	domaci2.c
+hint: 0	1004	interrupt handler (Timer2_interrupt at 0x002C)	domaci2.c
+diagnostics: 204	123	Compiled Successfully	domaci2.c
+diagnostics: 0	122	Compilation Started	USBdsc.c
+diagnostics: 166	123	Compiled Successfully	USBdsc.c
+diagnostics: 0	127	All files Compiled in 109 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 2385   Dynamic RAM (bytes): 63148	Static RAM (bytes): 2385   Dynamic RAM (bytes): 63148
+hint: 0	1144	Used ROM (bytes): 32658 (12%)  Free ROM (bytes): 229486 (88%)	Used ROM (bytes): 32658 (12%)  Free ROM (bytes): 229486 (88%)
+diagnostics: 0	125	Project Linked Successfully	domaci2.mcpar
+diagnostics: 0	128	Linked in 657 ms	 
+diagnostics: 0	129	Project 'domaci2.mcpar' completed: 938 ms	 
+diagnostics: 0	103	Finished successfully: 28 Dec 2016, 18:05:13	domaci2.mcpar
